@@ -14,5 +14,5 @@
 </template>
 
 <script setup>
-import VideoPlayer from '/components/VideoPlayer.vue'
+import VideoPlayer from '/components/videoPlayer.vue'
 </script>
