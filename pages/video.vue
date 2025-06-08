@@ -15,4 +15,5 @@
 
 <script setup>
 import VideoPlayer from '~/components/videoPlayer.vue'
+
 </script>
