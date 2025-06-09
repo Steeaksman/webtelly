@@ -1,6 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
+   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts']
+   vite: {
+    plugins: [tailwindcss()],
+  },
+  /* css: ["~/assets/app.css"],
+ 
+ 
+   googleFonts: {
+    families: {
+      Roboto: true,
+      "Imperial Script": true,
+      Montserrat: true,
+    },
+  }, */
 })
